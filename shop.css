@@ -1,0 +1,35 @@
+  body {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #dedede;
+      color: #333;
+    }
+    h1 {
+      margin: 20px;
+      color: white;
+    }
+    .container {
+      display: grid;
+     grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+    }
+  
+    .card img {
+      width: 100px;
+      height: 120px;
+      object-fit: contain;
+    }
+    .price {
+      color: red;
+      font-weight: bold;
+    }
+
